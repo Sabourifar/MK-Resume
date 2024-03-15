@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MK-Resume/static/css/main.dd1a4c9b.css",
+    "main.js": "/MK-Resume/static/js/main.bcb88639.js",
+    "static/js/453.422fe807.chunk.js": "/MK-Resume/static/js/453.422fe807.chunk.js",
+    "index.html": "/MK-Resume/index.html",
+    "main.dd1a4c9b.css.map": "/MK-Resume/static/css/main.dd1a4c9b.css.map",
+    "main.bcb88639.js.map": "/MK-Resume/static/js/main.bcb88639.js.map",
+    "453.422fe807.chunk.js.map": "/MK-Resume/static/js/453.422fe807.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd1a4c9b.css",
+    "static/js/main.bcb88639.js"
+  ]
+}
