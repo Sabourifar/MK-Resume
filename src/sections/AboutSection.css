@@ -1,0 +1,34 @@
+.second {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 20px;
+}
+
+p {
+  padding-right: 10rem;
+  padding-left: 10rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+h3::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #e4e433;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}

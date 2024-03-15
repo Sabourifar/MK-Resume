@@ -1,0 +1,88 @@
+{
+	"title": "Hello, I'm Sabourifar!",
+	"subtitle": "Web & Python Developer | Graphic Designer | Crypto Lover",
+	"links": {
+		"github": "https://github.com/Sabourifar",
+		"linkedin": "https://linkedin.com/in/Sabourifar/",
+		"twitter": "https://twitter.com/Sabourifar_",
+		"instagram": "https://instagram.com/Sabourifar_/"
+	},
+	"sections": [
+		{
+			"title": "About",
+			"items": [
+				{
+					"type": "p",
+					"content": "Coding Beautiful Solutions..."
+				},
+				{
+					"type": "p",
+					"content": "I'm a highly motivated and results-oriented individual with a passion for web development. I'm excited to embark on my journey as a web developer and bring my enthusiasm for creating user-friendly and visually appealing websites to life, I'm confident that my dedication, eagerness to learn, and strong work ethic will make me a valuable asset to any team. I'm excited to contribute to the creation of innovative and user-centric web experiences."
+				},
+				{
+					"type": "p",
+					"content": "I'm a passionate web developer specializing in React and front-end technologies, with a strong background in Python programming. I thrive on building dynamic and responsive web applications that deliver exceptional user experiences."
+				},
+				{
+					"type": "p",
+					"content": "React: Proficient in building robust and scalable user interfaces using React, Redux, and related libraries. Experienced in creating reusable components, managing state, and optimizing performance."
+				},
+				{
+					"type": "p",
+					"content": "JavaScript: Solid understanding of modern JavaScript syntax, including arrow functions, destructuring, and module systems. Comfortable working with asynchronous programming using Promises and Async/Await."
+				},
+				{
+					"type": "p",
+					"content": "HTML & CSS: Adept at crafting pixel-perfect layouts and styling using HTML5, CSS3, and preprocessors like Sass/SCSS."
+				},
+				{
+					"type": "p",
+					"content": "Python: Skilled in Python programming with a focus on back-end development, data manipulation, and scripting. Familiar with popular Python frameworks like Django and Flask."
+				}
+			]
+		},
+		{
+			"title": "Skills",
+			"items": [
+				{
+					"type": "card",
+					"content": {
+						"image": "images/react.png",
+						"title": "React"
+					}
+				},
+				{
+					"type": "card",
+					"content": {
+						"image": "images/javascript.png",
+						"title": "Javascript"
+					}
+				},
+				{
+					"type": "card",
+					"content": {
+						"image": "images/html.png",
+						"title": "HTML"
+					}
+				},
+				{
+					"type": "card",
+					"content": {
+						"image": "images/css.png",
+						"title": "CSS"
+					}
+				},
+				{
+					"type": "card",
+					"content": {
+						"image": "images/python.png",
+						"title": "Python"
+					}
+				}
+			]
+		}
+	],
+	"icons": {
+		"down": "images/down.png"
+	}
+}

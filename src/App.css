@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Light Theme */
+:root {
+  --bg-color: #fff;
+  --text-color: #333;
+}
+
+.light {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Dark Theme */
+.dark {
+  --bg-color: #333;
+  --text-color: #fff;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

@@ -1,0 +1,14 @@
+.third {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.stitle {
+  margin: 3rem;
+}
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

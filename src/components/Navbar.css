@@ -1,0 +1,104 @@
+nav {
+  background-color: var(--nav-bg-color);
+  overflow: hidden;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav li a {
+  display: block;
+  color: var(--nav-text-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  background-color: var(--nav-hover-bg-color);
+  color: var(--nav-hover-text-color);
+}
+
+nav button {
+  background-color: var(--theme-btn-bg-color);
+  color: var(--theme-btn-text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav button:hover {
+  background-color: var(--theme-btn-hover-bg-color);
+  color: var(--theme-btn-hover-text-color);
+}
+
+:root {
+  --nav-bg-color: #f2f2f2;
+  --nav-text-color: #333;
+  --nav-hover-bg-color: #555;
+  --nav-hover-text-color: #fff;
+  --theme-btn-bg-color: #333;
+  --theme-btn-text-color: #fff;
+  --theme-btn-hover-bg-color: #555;
+  --theme-btn-hover-text-color: #fff;
+}
+
+.dark {
+  --nav-bg-color: #303030;
+  --nav-text-color: #fff;
+  --nav-hover-bg-color: #555;
+  --nav-hover-text-color: #fff;
+  --theme-btn-bg-color: #fff;
+  --theme-btn-text-color: #333;
+  --theme-btn-hover-bg-color: #ddd;
+  --theme-btn-hover-text-color: #333;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  nav button {
+    position: static;
+    transform: none;
+  }
+}
